@@ -1,0 +1,16 @@
+.header-bg{
+    background-color: azure;
+}
+.fw-600{
+    font-weight: 600;
+}
+.title{
+    color: rgb(52, 71, 103);
+}
+.img-icon{
+    height: 20px;
+    width: 20px;
+}
+.dropdown-item:hover {
+    background-color: transparent !important;
+}
