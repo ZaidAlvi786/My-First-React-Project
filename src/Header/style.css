@@ -1,5 +1,7 @@
 .header-bg{
     background-color: azure;
+    border-radius: 10px;
+    position: fixed;
 }
 .fw-600{
     font-weight: 600;
@@ -14,3 +16,17 @@
 .dropdown-item:hover {
     background-color: transparent !important;
 }
+
+ ::ng-deep #dropdownMenuButton2 .dropdown-toggle::after {
+    /* vertical-align: 0; */
+    position: absolute !important;
+    right: 0 !important;
+    top: 40% !important;
+}
+.btn_primary{
+    border: none;
+    color: white;
+    background: #267eea;
+    border-radius: 5px
+}
+ 
